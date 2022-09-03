@@ -9,10 +9,5 @@ router.route("/update/:id").put(orderController.updateOrder);
 router.route("/delete/:id").delete(orderController.deleteOrder);
 router.route("/lists").get(orderController.getListOrder);
 
-// router
-//   .route('/:id')
-//   .get(tourController.getTour)
-//   .patch(tourController.updateTour)
-//   .delete(tourController.deleteTour);
 
 module.exports = router;
